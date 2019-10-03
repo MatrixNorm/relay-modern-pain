@@ -5,7 +5,7 @@ import React from "react";
 
 import environment from "./env";
 import City from "./City";
-import type { AppQueryResponse } from "./__generated__/AppQuery.graphql";
+import type { AppQueryResponse } from "relay/AppQuery.graphql";
 
 type Props = {
   error: ?Error,
